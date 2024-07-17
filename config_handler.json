@@ -1,0 +1,21 @@
+{
+  "admins": [],
+  "skip": {
+    "events": [],
+    "commands": []
+  },
+  "adminOnly": {
+    "toggle": false,
+    "toggle_message": "Only the administrator can use the bot now"
+  },
+  "banned_threads": {
+    "message": "This chat is banned"
+  },
+  "skip_message": "Command is Unloaded",
+  "authorization_prompt": true,
+  "auto_clean": {
+    "toggle": true,
+    "time": 1500000,
+    "log": false
+  }
+}

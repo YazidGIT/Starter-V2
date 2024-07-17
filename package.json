@@ -1,0 +1,31 @@
+{
+  "name": "Starter-V2",
+  "version": "1.0.0",
+  "description": "A Basic Telegram Starter Bot, Built upon the previous iteration of this project, Starter-V1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "update": "node update"
+  },
+  "keywords": ["telegram", "node-telegram-bot-api", "bot", "ai"],
+  "author": "M.H",
+  "license": "MIT",
+  "dependencies": {
+    "@distube/ytdl-core": "latest",
+    "@nechlophomeriaa/spotifydl": "latest",
+    "axios": "latest",
+    "express": "^4.19.2",
+    "cheerio": "^1.0.0-rc.12",
+    "prettier": "latest",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "kleur": "^4.1.5",
+    "mongoose": "^8.4.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7",
+    "pdfkit": "^0.15.0",
+    "sharp": "^0.33.4",
+    "ytsr": "latest"
+  }
+}
