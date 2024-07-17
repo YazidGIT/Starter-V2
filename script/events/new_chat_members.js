@@ -21,7 +21,7 @@ module.exports = {
     const botAdded = newMembers.some(member => member.username === botUsername);
 
     if (botAdded) {
-      const message = "Hey guys! [I'm Starter-V2](https://github.com/SatoX69/Starter-V2)\nThanks for adding me";
+      const message = "Hey guys! [I'm Starter-V2.5](https://github.com/SatoX69/Starter-V2.5)\nThanks for adding me";
       await api.sendMessage(chatId, message, { parse_mode: "Markdown" });
     } else {
       const memberUsernames = newMembers.map(member => member.username ? "@" + member.username : member.first_name || "User").join(', ');

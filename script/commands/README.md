@@ -46,8 +46,8 @@ module.exports = {
 
 Below are illustrative images showing event handling and functional events:
 
-![Event Handler](https://github.com/SatoX69/Starter-V2/blob/master/assets/event_handler.jpg)
+![Event Handler](https://github.com/SatoX69/Starter-V2.5/blob/master/assets/event_handler.jpg)
 
-![Functional Events](https://github.com/SatoX69/Starter-V2/blob/master/assets/functional_events.jpg)
+![Functional Events](https://github.com/SatoX69/Starter-V2.5/blob/master/assets/functional_events.jpg)
 
 Following this structure ensures each command integrates seamlessly and functions effectively within the system.

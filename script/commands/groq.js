@@ -66,13 +66,7 @@ module.exports = {
         title: 'AI Response',
         input_message_content: {
           message_text: response
-        },
-        url: "https://www.facebook.com/NlG6ER.bltch",
-        hide_url: true,
-        description: `AI Says: ${response.substring(0, 15)}...`,
-        thumb_url: 'https://raw.githubusercontent.com/SatoX69/Assets/main/assets/__.jpeg',
-        thumb_width: 50,
-        thumb_height: 50
+        }
       };
       await api.answerInlineQuery(event.id, [result]);
     } catch (err) {

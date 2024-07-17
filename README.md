@@ -1,6 +1,6 @@
-# Starter-V2
+# Starter-V2.5
 
-Starter-V2 BOT is a versatile Telegram bot project which is built upon its predecessor, [Starter-V1](https://github.com/SatoX69/Starter-V1)
+Starter-V2.5 BOT is a versatile Telegram bot project which is built upon its predecessor, [Starter-V1](https://github.com/SatoX69/Starter-V1)
 
 ## Features
 
@@ -17,7 +17,7 @@ Starter-V2 BOT is a versatile Telegram bot project which is built upon its prede
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/SatoX69/Starter-V2
+   git clone https://github.com/SatoX69/Starter-V2.5
    cd Bot
    ```
 
@@ -52,6 +52,3 @@ To interact with the bot, users must initiate a command to add themselves to the
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-
-# Starter-V2 is Open source

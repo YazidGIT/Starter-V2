@@ -1,5 +1,5 @@
 {
-  "name": "Starter-V2",
+  "name": "Starter-V2.5",
   "version": "1.0.0",
   "description": "A Basic Telegram Starter Bot, Built upon the previous iteration of this project, Starter-V1",
   "main": "index.js",
