@@ -5,14 +5,14 @@ process.emitWarning = (warning, type) => {
 };
 
 process.on('uncaughtException', (err) => {
-  log(`Uncaught Exception: ${err.message}\n${err.stack}`, "red");
+  console.log(`Uncaught Exception: ${err.message}\n${err.stack}`, "red");
 });
 
 process.on('unhandledRejection', (reason) => {
   if (reason instanceof Error) {
-    log(`Unhandled Rejection: ${reason.message}\n${reason.stack}`, "red");
+    console.log(`Unhandled Rejection: ${reason.message}\n${reason.stack}`, "red");
   } else {
-    log(`Unhandled Rejection: ${reason}`, "red");
+    console.log(`Unhandled Rejection: ${reason}`, "red");
   }
 });
 const { existsSync } = require("fs");
